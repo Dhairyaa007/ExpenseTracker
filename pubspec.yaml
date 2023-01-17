@@ -1,0 +1,48 @@
+name: expensetracker
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^10.2.1
+  geolocator: ^9.0.2
+  http: ^0.13.5
+  flutter_spinkit: ^5.1.0
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  #  assets:
+  #    - images/
+
+  fonts:
+    - family: BebasNeue
+      fonts:
+        - asset: fonts/BebasNeue-Regular.ttf
+    - family: SourceSansPro
+      fonts:
+        - asset: fonts/SourceSansPro-Regular.ttf
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+    - family: Roboto-bold
+      fonts:
+        - asset: fonts/Roboto-Bold.ttf
+    - family: LuckiestGuy
+      fonts:
+        - asset: fonts/LuckiestGuy-Regular.ttf
